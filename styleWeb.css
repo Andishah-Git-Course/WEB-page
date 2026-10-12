@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'beykan';
+    src: url('fonts/BYEKAN.TTF') format('truetype'),
+        url('fonts/BYEKAN.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'lalazar';
+    src: url('fonts/Lalezar-Regular.ttf') format('truetype'),
+        url('fonts/Lalezar-Regular.woff') format('woff');
+}
+
+body {
+    font-family: Beykan;
+}
+
+
+/*Part Header*/
+.header {
+    height: 730px;
+    background-image: url(images/BG3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+.nav-list {
+    list-style-type: none;
+    
+
+}
+
+.header .nav-list .nav-item {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 25px;
+    margin-top: 40px;
+    border-radius: 70px;
+
+}
+
+.header .nav-list .nav-item:hover {
+    color: rgb(30, 177, 214);
+    background-color: rgba(30, 177, 214, 0.1);
+}
+
+.title {
+    font-family: lalazar;
+    margin-top: 150px;
+    font-size: 50px;
+    
+}
+
+.title samp {
+    font-family: lalazar;
+    color: rgb(255, 187, 0);
+}
+
+.search .input {
+    margin-top: 120px;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.685);
+    border: 1px solid white;
+    color: white;
+    direction: ltr;
+}
+
+#search {
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+.header .dese {
+    margin: auto;
+    width: 340px;
+    height: 40px;
+    line-height: 35px;
+    margin-top: 60px;
+    border: 1px solid white;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+
+/*Part Member*/
+.member-title{
+    font-family: lalazar;
+    font-size: 40px;
+}
+.members {
+    text-align: center;
+    padding: 50px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+    
+    
+}
+
+.member-list {
+    list-style-type: none;
+    margin-top:30px ;
+    
+}
+
+.member-item {
+    display: inline-block;
+        width: 400px;
+        vertical-align: top;
+        margin: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.274);
+        border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        
+}
+
+.member-pic {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.member-pic:hover{
+transform: scale(1.04);
+transition: 0.1s;
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.274);
+}
+
+
+.member-bio {
+    padding: 15px;
+    text-align: justify;
+}
+
+
+/*Part Course*/
+.course{
+list-style-type: none;
+text-align: center;
+background-image: url(images/BG5.jpg);
+background-position: center;
+background-size: cover;
+color: white;
+height: 780px;
+background-attachment: fixed;
+}
+.course-title{
+font-size: 50px;
+padding-top: 150px;
+font-family: lalazar;
+}
+.course-list{
+    
+}
+.course-item{
+display: inline-block;
+width: 200px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 20px;
+margin: 150px 10px;
+
+}
+.icon{
+width: 100%;
+margin-bottom: 20px;
+
+}
+.icon:hover{
+    transform: scale(1.2);
+        transition: 0.2s;
+}
+
+/*Part about*/
+.about{
+    background-color: rgb(16, 16, 16);
+    height: 340px;
+    
+}
+.about-list{
+    list-style-type: none;
+}
+.about-item{
+    display: inline-block;
+    padding: 0 110px;
+    margin-top: 20px;
+}
+.about-item a{
+    
+    text-decoration: none;
+    color: white;
+
+}
